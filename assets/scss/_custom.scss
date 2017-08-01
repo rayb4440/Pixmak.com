@@ -1,0 +1,57 @@
+// ********** ONLY USE THIS STYLESHEET (complied) WHEN UPLOADING TO VS-CMS ****************
+//***...THE ONLY STYLING NEEDED IN THE TEMPLATE CSS FILE WOULD BE ANY ADDITONAL STYLING CREATED BY THE _custom.scss file ***
+// *** IMPORTANT ***=====================SEE READ ME FILE======================
+//		*******************************************************************************************************************************
+//				the _custom.scss file is compliled via SASS into the all.css file. So,
+//				ONLY COPY THE VERY END OF THE all.css file starting somewhere around line 1700
+//				Look for "Custom Styles Start Here" and copy everything after and PASTE into the Template Stylesheet Block
+//		*******************************************************************************************************************************
+
+/*   */
+/*   */
+/* ...................................................Custom Styles start here
+================================================== */
+
+.main-flex-slider {
+	display: none;
+	}
+
+.footer-text-align {
+	text-align: center;
+}
+
+
+/*==========  Media Queries  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.footer-text-align {
+		text-align: left;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.main-flex-slider {
+		display: block;
+		background-color: darken( #26956A, 5%);
+		figcaption h3 {
+		color: #ffffff;
+		}
+	}
+}
